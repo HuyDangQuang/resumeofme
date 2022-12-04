@@ -58,8 +58,9 @@ function App() {
                     <Typography
                       sx={{
                         color: "#596275",
-                        fontSize: "100px",
-                        fontFamily: "Fantasy",
+                        fontSize: "80px",
+                        fontFamily: "sans-serif",
+                        fontWeight : "600",
                       }}
                     >
                       HUY DANG

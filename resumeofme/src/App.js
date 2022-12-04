@@ -34,7 +34,7 @@ function App() {
               container
               xs={12}
               sx={{
-                color: "gray",
+                color: "#596275",
                 padding: "8px",
                 backgroundColor: "",
                 borderRadius: "10px",
@@ -48,7 +48,7 @@ function App() {
                       alt="Remy Sharp"
                       src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.15752-9/314616594_831010858047991_1761606060764111895_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ZDoTEG-UANIAX-CwnAL&_nc_ht=scontent.fsgn2-1.fna&oh=03_AdRRRTfqJU4bEt_7_RvCJ3ThiXiXaTa_QD1wfBOpinDrpw&oe=63ADCAD1"
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         width: 200,
                         height: 200,
                       }}
@@ -57,7 +57,7 @@ function App() {
                   <Grid item xs={12} md="auto" className="name">
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "100px",
                         fontFamily: "Fantasy",
                       }}
@@ -66,7 +66,7 @@ function App() {
                     </Typography>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontFamily: "serif",
                         fontSize: "30px",
                       }}
@@ -79,9 +79,9 @@ function App() {
 
               <Grid item xs={12} md={6} classname="Profile">
                 <Typography
-                  sx={{ color: "gray", fontSize: "40px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "40px", fontFamily: "serif" }}
                 >
-                  <AccountCircleIcon sx={{ color: "gray", fontSize: "30px" }} />
+                  <AccountCircleIcon sx={{ color: "#596275", fontSize: "30px" }} />
                   &ensp;Profile <hr />
                 </Typography>
                 <Typography sx={{ fontSize: "20px", fontFamily: "serif" }}>
@@ -92,10 +92,10 @@ function App() {
                   functions following requirements.
                 </Typography>
                 <List>
-                  <ListItem>
+                  <ListItem >
                     <ListItemAvatar>
-                      <Avatar>
-                        <CallIcon />
+                      <Avatar >
+                        <CallIcon sx = {{color : '#596275'}} />
                       </Avatar>
                     </ListItemAvatar>
                     <ListItemText
@@ -106,7 +106,7 @@ function App() {
                   <ListItem>
                     <ListItemAvatar>
                       <Avatar>
-                        <FacebookIcon />
+                        <FacebookIcon  sx = {{color : '#596275'}}  />
                       </Avatar>
                     </ListItemAvatar>
                     <ListItemText
@@ -117,7 +117,7 @@ function App() {
                   <ListItem>
                     <ListItemAvatar>
                       <Avatar>
-                        <EmailIcon />
+                        <EmailIcon  sx = {{color : '#596275'}}  />
                       </Avatar>
                     </ListItemAvatar>
                     <ListItemText
@@ -128,7 +128,7 @@ function App() {
                   <ListItem>
                     <ListItemAvatar>
                       <Avatar>
-                        <HomeIcon />
+                        <HomeIcon  sx = {{color : '#596275'}}  />
                       </Avatar>
                     </ListItemAvatar>
                     <ListItemText
@@ -141,15 +141,15 @@ function App() {
 
               <Grid item xs={12} md={6} classname="Education">
                 <Typography
-                  sx={{ color: "gray", fontSize: "40px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "40px", fontFamily: "serif" }}
                 >
-                  <SchoolIcon sx={{ color: "gray", fontSize: "30px" }} />
+                  <SchoolIcon sx={{ color: "#596275", fontSize: "30px" }} />
                   &ensp;Education
                   <hr />
                 </Typography>
                 <h3>STUDENT</h3>
                 <Typography
-                  sx={{ color: "gray", fontSize: "20px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "20px", fontFamily: "serif" }}
                 >
                   Phan Boi Chau High School / 2016-2018
                 </Typography>
@@ -157,7 +157,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -168,7 +168,7 @@ function App() {
                 </ul>
                 <h3> Software Engineer</h3>
                 <Typography
-                  sx={{ color: "gray", fontSize: "20px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "20px", fontFamily: "serif" }}
                 >
                   Van Lang University / 2018-2022
                 </Typography>
@@ -176,7 +176,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -187,7 +187,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -198,7 +198,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -210,7 +210,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -221,7 +221,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -234,117 +234,132 @@ function App() {
 
               <Grid item xs={12} md={6} classname="Technical Skills">
                 <Typography
-                  sx={{ color: "gray", fontSize: "40px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "40px", fontFamily: "serif" }}
                 >
-                  <LanguageIcon sx={{ color: "gray", fontSize: "30px" }} />
+                  <LanguageIcon sx={{ color: "#596275", fontSize: "30px" }} />
                   &ensp;Technical Skills
                   <hr />
                 </Typography>
                 <ul>
                   <li>
-                    <Typography
-                      sx={{
-                        color: "gray",
-                        fontSize: "20px",
-                        fontFamily: "serif",
-                      }}
-                    >
-                      HTML/CSS
+                    <Box sx={{ display: "flex" }}>
+                      <Typography
+                        sx={{
+                          color: "#596275",
+                          fontSize: "20px",
+                          fontFamily: "serif",
+                          width: "120px",
+                        }}
+                      >
+                        HTML/CSS
+                      </Typography>
                       <Rating
                         name="size-small"
                         defaultValue={4}
                         size="small"
                         readOnly
-                        sx={{ color: "gray", paddingLeft: "25px" }}
+                        sx={{ color: "#596275", paddingTop: "3px" }}
                       />
-                    </Typography>
+                    </Box>
                   </li>
                   <li>
-                    <Typography
-                      sx={{
-                        color: "gray",
-                        fontSize: "20px",
-                        fontFamily: "serif",
-                      }}
-                    >
-                      Javascripts
+                    <Box sx={{ display: "flex"}}>
+                      <Typography
+                        sx={{
+                          color: "#596275",
+                          fontSize: "20px",
+                          fontFamily: "serif",
+                          width: "120px",
+                        }}
+                      >
+                        Javascripts
+                      </Typography>
                       <Rating
                         name="size-small"
                         defaultValue={4}
                         size="small"
                         readOnly
-                        sx={{ color: "gray", paddingLeft: "35px" }}
+                        sx={{ color: "#596275", paddingTop: "3px" }}
                       />
-                    </Typography>
+                    </Box>
                   </li>
                   <li>
-                    <Typography
-                      sx={{
-                        color: "gray",
-                        fontSize: "20px",
-                        fontFamily: "serif",
-                      }}
-                    >
-                      ReactJS
+                    <Box sx={{ display: "flex"}}>
+                      <Typography
+                        sx={{
+                          color: "#596275",
+                          fontSize: "20px",
+                          fontFamily: "serif",
+                          width: "120px",
+                        }}
+                      >
+                        ReactJS
+                      </Typography>
                       <Rating
                         name="size-small"
                         defaultValue={3}
                         size="small"
                         readOnly
-                        sx={{ color: "gray", paddingLeft: "59px" }}
+                        sx={{ color: "#596275", paddingTop: "3px" }}
                       />
-                    </Typography>
+                    </Box>
                   </li>
                   <li>
-                    <Typography
-                      sx={{
-                        color: "gray",
-                        fontSize: "20px",
-                        fontFamily: "serif",
-                      }}
-                    >
-                      Material-UI
+                    <Box sx={{ display: "flex"}}>
+                      <Typography
+                        sx={{
+                          color: "#596275",
+                          fontSize: "20px",
+                          fontFamily: "serif",
+                          width: "120px",
+                        }}
+                      >
+                        Material-UI
+                      </Typography>
+                      <Rating
+                        name="size-small"
+                        defaultValue={4}
+                        size="small"
+                        readOnly
+                        sx={{ color: "#596275", paddingTop: "3px" }}
+                      />
+                    </Box>
+                  </li>
+                  <li>
+                    <Box sx={{ display: "flex"}}>
+                      <Typography
+                        sx={{
+                          color: "#596275",
+                          fontSize: "20px",
+                          fontFamily: "serif",
+                          width: "120px",
+                        }}
+                      >
+                        Figma
+                      </Typography>
                       <Rating
                         name="size-small"
                         defaultValue={2}
                         size="small"
                         readOnly
-                        sx={{ color: "gray", paddingLeft: "27px" }}
+                        sx={{ color: "#596275"}}
                       />
-                    </Typography>
-                  </li>
-                  <li>
-                    <Typography
-                      sx={{
-                        color: "gray",
-                        fontSize: "20px",
-                        fontFamily: "serif",
-                      }}
-                    >
-                      Figma
-                      <Rating
-                        name="size-small"
-                        defaultValue={2}
-                        size="small"
-                        readOnly
-                        sx={{ color: "gray", paddingLeft: "73px" }}
-                      />
-                    </Typography>
+                    </Box>
                   </li>
                 </ul>
               </Grid>
 
               <Grid item xs={12} md={6} classname="Skills">
                 <Typography
-                  sx={{ color: "gray", fontSize: "40px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "40px", fontFamily: "serif" }}
                 >
-                  <WorkIcon sx={{ color: "gray", fontSize: "30px" }} />
+                  <WorkIcon sx={{ color: "#596275", fontSize: "30px" }} />
                   &ensp;Work Experience
                   <hr />
                 </Typography>
                 <h3>Front-END Intern</h3>
                 <Typography
-                  sx={{ color: "gray", fontSize: "20px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "20px", fontFamily: "serif" }}
                 >
                   Tradeline Company (2021)
                 </Typography>
@@ -352,7 +367,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -363,7 +378,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -374,7 +389,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -385,7 +400,7 @@ function App() {
                   <li>
                     <Typography
                       sx={{
-                        color: "gray",
+                        color: "#596275",
                         fontSize: "20px",
                         fontFamily: "serif",
                       }}
@@ -398,9 +413,9 @@ function App() {
 
               <Grid item xs={12} md={6} classname="Work Experience">
                 <Typography
-                  sx={{ color: "gray", fontSize: "40px", fontFamily: "serif" }}
+                  sx={{ color: "#596275", fontSize: "40px", fontFamily: "serif" }}
                 >
-                  <SettingsIcon sx={{ color: "gray", fontSize: "30px" }} />
+                  <SettingsIcon sx={{ color: "#596275", fontSize: "30px" }} />
                   &ensp;Skills
                   <hr />
                 </Typography>
@@ -409,18 +424,18 @@ function App() {
                     <Box display="flex" alignItems="center">
                       <Typography
                         sx={{
-                          color: "gray",
+                          color: "#596275",
                           fontSize: "20px",
                           fontFamily: "serif",
-                          width: '125px'
+                          width: "120px",
                         }}
                       >
                         Professional
                       </Typography>
                       <Box
                         sx={{
-                          backgroundColor: "grey",
-                          width: "115px",
+                          backgroundColor: "#596275",
+                          width: "70px",
                           height: "10px",
                           marginLeft: "20px",
                         }}
@@ -431,18 +446,18 @@ function App() {
                     <Box display="flex" alignItems="center">
                       <Typography
                         sx={{
-                          color: "gray",
+                          color: "#596275",
                           fontSize: "20px",
                           fontFamily: "serif",
-                          width: '125px'
+                          width: "120px",
                         }}
                       >
                         TeamWork
                       </Typography>
                       <Box
                         sx={{
-                          backgroundColor: "grey",
-                          width: "200px",
+                          backgroundColor: "#596275",
+                          width: "85px",
                           height: "10px",
                           marginLeft: "20px",
                         }}
@@ -453,18 +468,18 @@ function App() {
                     <Box display="flex" alignItems="center">
                       <Typography
                         sx={{
-                          color: "gray",
+                          color: "#596275",
                           fontSize: "20px",
                           fontFamily: "serif",
-                          width: '125px'
+                          width: "120px",
                         }}
                       >
                         Flexibility
                       </Typography>
                       <Box
                         sx={{
-                          backgroundColor: "grey",
-                          width: "160px",
+                          backgroundColor: "#596275",
+                          width: "80px",
                           height: "10px",
                           marginLeft: "20px",
                         }}
@@ -475,18 +490,18 @@ function App() {
                     <Box display="flex" alignItems="center">
                       <Typography
                         sx={{
-                          color: "gray",
+                          color: "#596275",
                           fontSize: "20px",
                           fontFamily: "serif",
-                          width: '125px'
+                          width: "120px",
                         }}
                       >
                         Creativity
                       </Typography>
                       <Box
                         sx={{
-                          backgroundColor: "grey",
-                          width: "130px",
+                          backgroundColor: "#596275",
+                          width: "75px",
                           height: "10px",
                           marginLeft: "20px",
                         }}
@@ -497,18 +512,18 @@ function App() {
                     <Box display="flex" alignItems="center">
                       <Typography
                         sx={{
-                          color: "gray",
+                          color: "#596275",
                           fontSize: "20px",
                           fontFamily: "serif",
-                          width: '125px'
+                          width: "120px",
                         }}
                       >
                         Management
                       </Typography>
                       <Box
                         sx={{
-                          backgroundColor: "grey",
-                          width: "120px",
+                          backgroundColor: "#596275",
+                          width: "65px",
                           height: "10px",
                           marginLeft: "20px",
                         }}
